@@ -1,0 +1,29 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace= "Board">
+    <insert id= "insertBoard">
+        insert into Final_Project (patientName, doctorName, pGender, pAge, symptoms, specifications)
+        values
+        (#{patientName}, #{doctorName}, #{pGender}, #{pAge}, #{symptoms}, #{specifications})
+    </insert>
+
+    <update id= "updateBoard">
+        update Final_Project
+        set patientName=#{patientName}, doctorName=#{doctorName}, pGender=#{pGender},
+            pAge=#{pAge}, symptoms=#{symptoms}, specifications=#{specifications}
+        where id= #{id}
+    </update>
+
+    <delete id= "deleteBoard">
+        delete from Final_Project where id=#{id}
+    </delete>
+
+    <select id= "getBoard" resultType= "board">
+        select * from Final_Project where id=#{id}
+    </select>
+
+    <select id= "getBoardList" resultType= "board">
+        select * from Final_Project order by id desc
+    </select>
+</mapper>
