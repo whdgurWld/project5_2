@@ -9,30 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abf2f8ec-211c-43e5-9db5-f6231422e5b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/board/BoardVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/util/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/board-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="abf2f8ec-211c-43e5-9db5-f6231422e5b7" name="Changes" comment="Create Project5">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycom/myapp/user/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,11 +177,25 @@
       <workItem from="1702222492788" duration="1224000" />
       <workItem from="1702224236892" duration="10355000" />
       <workItem from="1702390279956" duration="644000" />
-      <workItem from="1702660745282" duration="3988000" />
+      <workItem from="1702660745282" duration="4735000" />
+      <workItem from="1702696525284" duration="169000" />
     </task>
+    <task id="LOCAL-00001" summary="Create Project5">
+      <option name="closed" value="true" />
+      <created>1702665874330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702665874331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Project5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Project5" />
   </component>
 </project>
