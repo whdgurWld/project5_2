@@ -69,8 +69,8 @@
     <c:forEach items="${list}" var="u">
         <tr onclick="view_ok('${u.id}')">
             <td>${u.id}</td>
-            <td>${u.doctorName}</td>
             <td>${u.patientName}</td>
+            <td>${u.doctorName}</td>
             <td>${u.pGender}</td>
             <td>${u.pAge}</td>
             <td>${u.date}</td>
